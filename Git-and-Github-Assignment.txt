@@ -1,0 +1,23 @@
+1. How to check if git is available in our system?
+=> We use the command $ git --version.
+
+2. How to intitialize a new Git repository?
+=> We use the command $ git init.
+
+3. How to tell git about your name and email?
+=> We use command $ git config --global user.name "user name" for username and $ git config --global user.email "ronakgupta9595@dgmail.com" for user email.
+
+4. How to add a file to the staging area?
+=> We use command $ git add ronak.java(any specific file).
+
+5. How to remove a file from the staging area?
+=> we use command $ git rm --cached ronak.java.
+
+6. How to make a commit?
+=> We use command $ git commit -m "my first commit"
+
+7. How to send your changes to a remote repository?
+=> We use the command $ git push -u origin main.
+
+8. What is the diiference between clone and pull?
+=> The difference between clone and pull is that clone means to take the entire copy of code from remote repository and pull means to take only the updated part of code from remote repository.
